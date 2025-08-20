@@ -12,7 +12,7 @@ myFormE1.addEventListener("submit",function(event){
     let loginerrorE1=document.getElementById("loginerror");
     if (savedUser && savedUser.email === inputemail && savedUser.password === inputpassword) {
         // Successful login
-        window.location.href = "Welcome.html";   // Redirect to Welcome or Dashboard page
+        window.location.href = "index.html";   // Redirect to Welcome or Dashboard page
     } else {
         loginerrorE1.textContent = "User not signed up. Please sign up first.";
         loginerrorE1.style.color = "red";
