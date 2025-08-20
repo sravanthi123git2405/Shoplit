@@ -1112,12 +1112,7 @@ h2 {
   .navbar-brand {
     font-size: 18px;
   }
-  .navbar-collapse{
-    background-color: lightgreen;
-  }
-.collapse{
-   background-color: lightgreen;
-}
+
   .nav-link {
     font-size: 13px;
   }
