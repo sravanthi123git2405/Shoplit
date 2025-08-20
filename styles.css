@@ -1112,6 +1112,10 @@ h2 {
   .navbar-brand {
     font-size: 18px;
   }
+  .navbar-background{
+    background-color: lightgreen !important;
+    color:black !important; 
+  }
 
   .nav-link {
     font-size: 13px;
