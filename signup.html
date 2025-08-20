@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Signup page"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="styles.css">
+<title>SIGNUP PAGE</title>
+</head>
+<body>
+
+<div class="signup-container">
+  <div class="signup-card">
+    <h1 class="shoplit-heading">SHOPLIT</h1>
+
+    <form id="myFormE2">
+      <label for="emailinputsignup">Email</label>
+      <input type="email" placeholder="Enter Your Email" id="emailinputsignup">
+      <p id="emailerrormsgsignup" class="error"></p>
+
+      <label for="passwordinputsignup">Password</label>
+      <input type="password" placeholder="Enter Your Password" id="passwordinputsignup">
+      <p id="passworderrormsgsignup" class="error"></p>
+
+      <label>Gender</label>
+      <div class="gender-options">
+        <label><input type="radio" name="Gender" value="Male"> Male</label>
+        <label><input type="radio" name="Gender" value="Female"> Female</label>
+        <label><input type="radio" name="Gender" value="Other"> Other</label>
+      </div>
+      <p id="radioerrormsg" class="error"></p>
+
+      <label for="phoneId">Phone Number</label>
+      <input type="tel" placeholder="Enter Your Phone Number" id="phoneId">
+      <p id="phoneError" class="error"></p>
+
+      <button type="submit" class="create-btn">Create Account</button>
+      <p id="createaccounterror"></p>
+
+      <div class="or-divider">or</div>
+
+      <button type="button" class="google-btn">
+        <img src="images/google-logo.png" class="google-icon" /> Sign up with Google
+      </button>
+
+      <p class="signin-link">Already have an account? <a href="login.html">Sign in</a></p>
+    </form>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="signup.js"></script>
+</body>
+</html>

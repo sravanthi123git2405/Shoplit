@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="../styles.css">
+<title>snacks page</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="d-flex flex-column">
+   <nav class="navbar navbar-expand navbar-bg-light">
+
+  <a class="navbar-brand mr-5" href="../Welcome.html">Shoplit</a>
+
+
+  <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+
+
+  <div class="dropdown ml-auto">
+    <button class="btn btn-info dropdown-toggle" type="button" id="profileDropdown" data-toggle="dropdown" aria-expanded="false">
+      Profile
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-person" viewBox="0 0 16 16">
+        <path
+          d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+      </svg>
+    </button>
+
+    <div class="dropdown-menu dropdown-menu-right" id="profileMenu">
+      <a class="dropdown-item" href="../signup.html">Sign Up</a>
+      <a class="dropdown-item" href="../login.html">Login</a>
+    </div>
+        <a href="cart.html" class="cart-link" id="cartIcon">
+  🛒 Cart
+</a>
+
+  </div>
+</nav>
+
+
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#categoryNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="categoryNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="fruits.html">Fruits</a></li>
+      <li class="nav-item"><a class="nav-link" href="vegetables.html">Vegetables</a></li>
+      <li class="nav-item"><a class="nav-link" href="snacks.html">Snacks & Beverages</a></li>
+      <li class="nav-item"><a class="nav-link" href="bakery.html">Bakery & Bread</a></li>
+      <li class="nav-item"><a class="nav-link" href="householditems.html">Household Items</a></li>
+      <li class="nav-item"><a class="nav-link" href="personalcare.html">Personal Care</a></li>
+      <li class="nav-item"><a class="nav-link" href="packaged.html">Packaged</a></li>
+      <li class="nav-item"><a class="nav-link" href="grains.html">Staples & Grains</a></li>
+      <li class="nav-item"><a class="nav-link" href="/others.html">Others</a></li>
+    </ul>
+  </div>
+</nav>
+
+           </div>
+
+    <div class="container mt-4 pb-5">
+        <h1 class="page-title">Snacks</h1>
+       <div class="row">
+  
+         
+        <div class="col-md-12">
+             <div class="row p-3" style="row-gap: 20px;"></div>
+             <div class="row">
+    
+             <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/orange juice.jpg" alt="Orange Juice" class="snacksimages">
+      <p>Orange Juice</p><small>1L</small><br>
+      <span class="price">₹90</span> <span class="old-price">₹100</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+   <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/cocolo juice.jpg" alt="Coca-Cola">
+      <p>Coca-Cola</p><small>750ml</small><br>
+      <span class="price">₹40</span> <span class="old-price">₹45</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">12% OFF</span>
+      <img src="pagesimages/pepsi juice.jpg" alt="Pepsi">
+      <p>Pepsi</p><small>750ml</small><br>
+      <span class="price">₹38</span> <span class="old-price">₹43</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">9% OFF</span>
+      <img src="pagesimages/sprite huice.jpg" alt="Sprite">
+      <p>Sprite</p><small>750ml</small><br>
+      <span class="price">₹39</span> <span class="old-price">₹43</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">11% OFF</span>
+      <img src="pagesimages/fanta fanta juice.jpg" alt="Fanta">
+      <p>Fanta</p><small>750ml</small><br>
+      <span class="price">₹37</span> <span class="old-price">₹42</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">8% OFF</span>
+      <img src="pagesimages/thumsup juce.jpg" alt="Thumbs Up">
+      <p>Thumbs Up</p><small>750ml</small><br>
+      <span class="price">₹40</span> <span class="old-price">₹44</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">13% OFF</span>
+      <img src="pagesimages/mountain dew.jpg" alt="Mountain Dew">
+      <p>Mountain Dew</p><small>750ml</small><br>
+      <span class="price">₹39</span> <span class="old-price">₹45</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">14% OFF</span>
+      <img src="pagesimages/limca juice.jpg" alt="Limca">
+      <p>Limca</p><small>750ml</small><br>
+      <span class="price">₹38</span> <span class="old-price">₹44</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">15% OFF</span>
+      <img src="pagesimages/7 up.jpg" alt="7Up">
+      <p>7Up</p><small>750ml</small><br>
+      <span class="price">₹37</span> <span class="old-price">₹44</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">7% OFF</span>
+      <img src="pagesimages/root beer.jpg" alt="Root Beer">
+      <p>Root Beer</p><small>330ml</small><br>
+      <span class="price">₹50</span> <span class="old-price">₹54</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/soda.jpg" alt="Club Soda">
+      <p>Club Soda</p><small>750ml</small><br>
+      <span class="price">₹25</span> <span class="old-price">₹28</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">12% OFF</span>
+      <img src="pagesimages/apple juice.jpg" alt="Apple Juice">
+      <p>Apple Juice</p><small>1L</small><br>
+      <span class="price">₹110</span> <span class="old-price">₹125</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">15% OFF</span>
+      <img src="pagesimages/mango juice.jpg" alt="Mango Juice">
+      <p>Mango Juice</p><small>1L</small><br>
+      <span class="price">₹85</span> <span class="old-price">₹100</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">8% OFF</span>
+      <img src="pagesimages/pinapple juivce.jpg" alt="Pineapple Juice">
+      <p>Pineapple Juice</p><small>1L</small><br>
+      <span class="price">₹95</span> <span class="old-price">₹103</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">11% OFF</span>
+      <img src="pagesimages/grape juice.jpg" alt="Grape Juice">
+      <p>Grape Juice</p><small>1L</small><br>
+      <span class="price">₹100</span> <span class="old-price">₹112</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">14% OFF</span>
+      <img src="pagesimages/mixed fruit.jpg" alt="Mixed Fruit Juice">
+      <p>Mixed Fruit Juice</p><small>1L</small><br>
+      <span class="price">₹95</span> <span class="old-price">₹110</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">9% OFF</span>
+      <img src="pagesimages/guava juice.jpg" alt="Guava Juice">
+      <p>Guava Juice</p><small>1L</small><br>
+      <span class="price">₹105</span> <span class="old-price">₹115</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/watermelon juice.jpg" alt="Watermelon Juice">
+      <p>Watermelon Juice</p><small>1L</small><br>
+      <span class="price">₹80</span> <span class="old-price">₹89</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">7% OFF</span>
+      <img src="pagesimages/carrot juice.jpg" alt="Carrot Juice">
+      <p>Carrot Juice</p><small>1L</small><br>
+      <span class="price">₹85</span> <span class="old-price">₹92</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">13% OFF</span>
+      <img src="pagesimages/Tomato juice.jpg" alt="Tomato Juice">
+      <p>Tomato Juice</p><small>1L</small><br>
+      <span class="price">₹75</span> <span class="old-price">₹86</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <!-- Soft Drinks -->
+ 
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/oreo.jpg" alt="Oreo">
+      <p>Oreo</p><small>120g</small><br>
+      <span class="price">₹30</span> <span class="old-price">₹33</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">12% OFF</span>
+      <img src="pagesimages/parlegsnacks.jpg" alt="Parle-G">
+      <p>Parle-G</p><small>250g</small><br>
+      <span class="price">₹20</span> <span class="old-price">₹23</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">15% OFF</span>
+      <img src="pagesimages/hide & seek.jpg" alt="Hide & Seek">
+      <p>Hide & Seek</p><small>200g</small><br>
+      <span class="price">₹35</span> <span class="old-price">₹41</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">8% OFF</span>
+      <img src="pagesimages/goodday.jpg" alt="Good Day">
+      <p>Good Day</p><small>200g</small><br>
+      <span class="price">₹30</span> <span class="old-price">₹33</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">11% OFF</span>
+      <img src="pagesimages/bourbun.jpg" alt="Bourbon">
+      <p>Bourbon</p><small>150g</small><br>
+      <span class="price">₹25</span> <span class="old-price">₹28</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">14% OFF</span>
+      <img src="pagesimages/marriegold.jpg" alt="Marie Gold">
+      <p>Marie Gold</p><small>250g</small><br>
+      <span class="price">₹28</span> <span class="old-price">₹33</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">9% OFF</span>
+      <img src="pagesimages/jimjam.jpg" alt="Jim Jam">
+      <p>Jim Jam</p><small>150g</small><br>
+      <span class="price">₹25</span> <span class="old-price">₹28</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/milk bikkis.jpg" alt="Milk Bikis">
+      <p>Milk Bikis</p><small>200g</small><br>
+      <span class="price">₹28</span> <span class="old-price">₹31</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">7% OFF</span>
+      <img src="pagesimages/digestive.jpg" alt="Digestive">
+      <p>McVitie’s Digestive</p><small>250g</small><br>
+      <span class="price">₹50</span> <span class="old-price">₹54</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">13% OFF</span>
+      <img src="pagesimages/krack jack.jpg" alt="Krackjack">
+      <p>Krackjack</p><small>200g</small><br>
+      <span class="price">₹22</span> <span class="old-price">₹25</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <!-- Next 10 -->
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">8% OFF</span>
+      <img src="pagesimages/treat.jpg" alt="Treat">
+      <p>Treat</p><small>150g</small><br>
+      <span class="price">₹25</span> <span class="old-price">₹27</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">11% OFF</span>
+      <img src="pagesimages/little hearts.jpg" alt="Little Hearts">
+      <p>Little Hearts</p><small>75g</small><br>
+      <span class="price">₹15</span> <span class="old-price">₹17</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">14% OFF</span>
+      <img src="pagesimages/unibic.jpg" alt="Unibic Cookies">
+      <p>Unibic Cookies</p><small>150g</small><br>
+      <span class="price">₹45</span> <span class="old-price">₹52</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">9% OFF</span>
+      <img src="pagesimages/biscotti.jpg" alt="Biscotti">
+      <p>Biscotti</p><small>200g</small><br>
+      <span class="price">₹60</span> <span class="old-price">₹66</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">12% OFF</span>
+      <img src="pagesimages/jeera biscuits.jpg" alt="Jeera Biscuits">
+      <p>Jeera Biscuits</p><small>200g</small><br>
+      <span class="price">₹30</span> <span class="old-price">₹34</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">11% OFF</span>
+      <img src="pagesimages/choco chip cookie.jpg" alt="Chocolate Chip">
+      <p>Chocolate Chip Cookies</p><small>200g</small><br>
+      <span class="price">₹50</span> <span class="old-price">₹56</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">13% OFF</span>
+      <img src="pagesimages/shortbread.jpg" alt="Shortbread">
+      <p>Shortbread</p><small>150g</small><br>
+      <span class="price">₹65</span> <span class="old-price">₹75</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">8% OFF</span>
+      <img src="pagesimages/wafer biscuits.jpg" alt="Wafer Biscuits">
+      <p>Wafer Biscuits</p><small>100g</small><br>
+      <span class="price">₹20</span> <span class="old-price">₹22</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+         
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/potato chips.jpg" alt="Potato Chips">
+      <p>Potato Chips</p><small>100g</small><br>
+      <span class="price">₹20</span> <span class="old-price">₹22</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">12% OFF</span>
+      <img src="pagesimages/banana chips.jpg" alt="Banana Chips">
+      <p>Banana Chips</p><small>100g</small><br>
+      <span class="price">₹30</span> <span class="old-price">₹34</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">8% OFF</span>
+      <img src="pagesimages/tortilla.jpg" alt="Tortilla Chips">
+      <p>Tortilla Chips</p><small>150g</small><br>
+      <span class="price">₹50</span> <span class="old-price">₹54</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">11% OFF</span>
+      <img src="pagesimages/sweet potato chips.jpg" alt="Sweet Potato Chips">
+      <p>Sweet Potato Chips</p><small>100g</small><br>
+      <span class="price">₹35</span> <span class="old-price">₹39</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">15% OFF</span>
+      <img src="pagesimages/masala chips.jpg" alt="Masala Chips">
+      <p>Masala Chips</p><small>100g</small><br>
+      <span class="price">₹25</span> <span class="old-price">₹29</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">9% OFF</span>
+      <img src="pagesimages/nacho chips.jpg" alt="Nachos">
+      <p>Nachos</p><small>150g</small><br>
+      <span class="price">₹45</span> <span class="old-price">₹50</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">13% OFF</span>
+      <img src="pagesimages/bhujia.jpg" alt="Bhujia">
+      <p>Bhujia</p><small>200g</small><br>
+      <span class="price">₹40</span> <span class="old-price">₹46</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/sev.jpg" alt="Sev">
+      <p>Sev</p><small>200g</small><br>
+      <span class="price">₹35</span> <span class="old-price">₹39</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">7% OFF</span>
+      <img src="pagesimages/mixture.jpg" alt="Mixture">
+      <p>Mixture</p><small>200g</small><br>
+      <span class="price">₹38</span> <span class="old-price">₹41</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">14% OFF</span>
+      <img src="pagesimages/moongdal.jpg" alt="Moong Dal">
+      <p>Moong Dal</p><small>200g</small><br>
+      <span class="price">₹30</span> <span class="old-price">₹35</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <!-- Next 10 -->
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/chakli.jpg" alt="Chakli">
+      <p>Chakli</p><small>150g</small><br>
+      <span class="price">₹28</span> <span class="old-price">₹31</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">12% OFF</span>
+      <img src="pagesimages/murmura.jpg" alt="Murmura">
+      <p>Murmura (Puffed Rice)</p><small>150g</small><br>
+      <span class="price">₹15</span> <span class="old-price">₹17</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">11% OFF</span>
+      <img src="pagesimages/fryums.jpg" alt="Fryums">
+      <p>Fryums</p><small>100g</small><br>
+      <span class="price">₹20</span> <span class="old-price">₹22</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">9% OFF</span>
+      <img src="pagesimages/kurkure.jpg" alt="Kurkure">
+      <p>Kurkure</p><small>90g</small><br>
+      <span class="price">₹20</span> <span class="old-price">₹22</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">13% OFF</span>
+      <img src="pagesimages/spicy sticks.jpg" alt="Spicy Sticks">
+      <p>Spicy Sticks</p><small>100g</small><br>
+      <span class="price">₹25</span> <span class="old-price">₹29</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/papad chips.jpg" alt="Papad Chips">
+      <p>Papad Chips</p><small>150g</small><br>
+      <span class="price">₹32</span> <span class="old-price">₹35</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">11% OFF</span>
+      <img src="pagesimages/onion rings.jpg" alt="Onion Rings">
+      <p>Onion Rings</p><small>100g</small><br>
+      <span class="price">₹30</span> <span class="old-price">₹34</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">14% OFF</span>
+      <img src="pagesimages/chilli chakra.jpg" alt="Chilli Chakra">
+      <p>Chilli Chakra</p><small>100g</small><br>
+      <span class="price">₹22</span> <span class="old-price">₹26</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">8% OFF</span>
+      <img src="pagesimages/lemonade.jpg" alt="Lemonade">
+      <p>Lemonade</p><small>500ml</small><br>
+      <span class="price">₹45</span> <span class="old-price">₹49</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">14% OFF</span>
+      <img src="pagesimages/coconut.jpg" alt="Coconut Water">
+      <p>Coconut Water</p><small>500ml</small><br>
+      <span class="price">₹35</span> <span class="old-price">₹40</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">11% OFF</span>
+      <img src="pagesimages/energy drink.jpg" alt="Energy Drink">
+      <p>Energy Drink</p><small>250ml</small><br>
+      <span class="price">₹90</span> <span class="old-price">₹102</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">13% OFF</span>
+      <img src="pagesimages/iced tea.jpg" alt="Iced Tea">
+      <p>Iced Tea</p><small>500ml</small><br>
+      <span class="price">₹55</span> <span class="old-price">₹63</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/butter milk.jpg" alt="Buttermilk">
+      <p>Buttermilk</p><small>200ml</small><br>
+      <span class="price">₹18</span> <span class="old-price">₹20</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">12% OFF</span>
+      <img src="pagesimages/lassi.jpg" alt="Lassi">
+      <p>Lassi</p><small>250ml</small><br>
+      <span class="price">₹25</span> <span class="old-price">₹28</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <!-- Next 10 -->
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">15% OFF</span>
+      <img src="pagesimages/milk shake.jpg" alt="Milkshake">
+      <p>Milkshake</p><small>300ml</small><br>
+      <span class="price">₹40</span> <span class="old-price">₹47</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">14% OFF</span>
+      <img src="pagesimages/cold coffeee.jpg" alt="Cold Coffee">
+      <p>Cold Coffee</p><small>250ml</small><br>
+      <span class="price">₹50</span> <span class="old-price">₹58</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">9% OFF</span>
+      <img src="pagesimages/green tea.jpg" alt="Green Tea">
+      <p>Green Tea</p><small>250ml</small><br>
+      <span class="price">₹35</span> <span class="old-price">₹39</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+
+
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">13% OFF</span>
+      <img src="pagesimages/fruity punch.jpg" alt="Fruit Punch">
+      <p>Fruit Punch</p><small>250ml</small><br>
+      <span class="price">₹40</span> <span class="old-price">₹46</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">10% OFF</span>
+      <img src="pagesimages/straw berry shake.jpg" alt="Strawberry Shake">
+      <p>Strawberry Shake</p><small>300ml</small><br>
+      <span class="price">₹42</span> <span class="old-price">₹47</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="product-card">
+      <span class="discount-badge">12% OFF</span>
+      <img src="pagesimages/mixed fruit.jpg" alt="Mixed Fruit Juice">
+      <p>Mixed Fruit Juice</p><small>1L</small><br>
+      <span class="price">₹95</span> <span class="old-price">₹108</span>
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+
+
+             </div>
+        </div>
+       </div>
+    </div>
+            
+
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="cart.js"></script>
+</body>
+</html>
